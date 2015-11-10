@@ -115,5 +115,40 @@ section input{
 footer{
   display: none;
 }
+}
+/*-------------------------------mobile-----------------------------------------
+------------------------------------------------------------------------------*/
+@media screen and (max-width:320px) {
 
+
+header{
+  font-size: 2.5em;
+  padding-top: 15%;
+padding-bottom: 30%;
+}
+header input{
+display: none;
+}
+section input{
+  display: none;
+}
+section{
+  font-size: 1.6em;
+}
+code{
+  margin-left: 5%;
+}
+dt{
+  margin-left: 7%;
+}
+footer{
+  position: fixed;
+  bottom: 0%;
+  }
+  footer input{
+    font-size: 2em;
+  }
+  .move{
+    margin-bottom: 45%;
+  }
 }
