@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link type="text/css" rel="stylesheet" href="index.css"/>
-    <title>CS_VIM</title>
 
-  </head>
-  <body>
-    <header id="head"><h1>How to use VIM...</h1>
-<a href="#exit">How to exit</a>
-<a href="#insert">How to insert text...</a>
-<a href="#move">How to move...</a>
+<head>
+  <link type="text/css" rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" />
 
-    </header>
-        <section class="exit">
-          <div id="exit"> <h2>How to quit!</h2>
-          </div>
-          <code>:q</code>
-          <dt>Quit Vim. This fails when changes have been made.
-          </dt>
-          <code>:q!</code>
-          <dt>Quit without writing.</dt>
-          <code>:cq</code>
-          <dt>Quit always, without writing.</dt>
-          <code>:wq</code>
-          <dt>	Write the current file and exit.</dt>
-          <code>:wq!</code>
-          <dt>Write the current file and exit always.</dt>
-          <a href="#insert">How to insert text...</a>
-          <a href="#move">How to move...</a>
-          <a href="#head">en haut</a>
-        </section>
-        <section class="insert">
-          <div id="insert">
-            <h2> How to insert text...</h2>
-          </div>
-          <code>a</code>
-          <dt>Append text after the cursor</dt>
-          <code>A</code>
-          <dt>Append text at the end of the line</dt>
-          <code>i</code>
-          <dt>Insert text before the cursor [count] times.</dt>
-          <code>I</code>
-          <dt>Insert text before the first non-blank in the line</dt>
-          <a href="#exit">How to exit</a>
-          <a href="#move">How to move...</a>
-                    <a href="#head">en haut</a>
+  <title>CS_VIM</title>
 
+</head>
 
-        </section>
-        <section class="move">
-          <div id="move">
-            <h2>Moving in...</h2>
-          </div>
-          <code>h</code>
-          <dt>move left</dt>
-          <code>j</code>
-          <dt>move down</dt>
-          <code>k</code>
-          <dt>move up</dt>
-          <code>l</code>
-          <dt>move right</dt>
-          <a href="#exit">How to exit</a>
-          <a href="#insert">How to insert text...</a>
-          <a href="#head">en haut</a>
+<body>
+  <header id="head">
+    <h1>How to use VIM...</h1>
+    <a href="#exit"><input type="button" value="How to exit"></a>
+    <a href="#insert"><input type="button" value="How to insert text..."></a>
+    <a href="#move"><input type="button" value="How to move..."></a>
+
+  </header>
+  <section class="exit">
+    <div id="exit">
+      <h2>How to quit!</h2>
+    </div>
+    <code>:q</code>
+    <dt>Quit Vim. This fails when changes have been made.
+    </dt>
+    <code>:q!</code>
+    <dt>Quit without writing.</dt>
+    <code>:cq</code>
+    <dt>Quit always, without writing.</dt>
+    <code>:wq</code>
+    <dt> Write the current file and exit.</dt>
+    <code>:wq!</code>
+    <dt>Write the current file and exit always.</dt>
+    <a href="#insert"><input type="button" value="How to insert text..."></a>
+    <a href="#move"><input type="button" value="How to move..."></a>
+    <a href="#head"><input type="button" value="en haut"></a>
+  </section>
+  <section class="insert">
+    <div id="insert">
+      <h2> How to insert text...</h2>
+    </div>
+    <code>a</code>
+    <dt>Append text after the cursor</dt>
+    <code>A</code>
+    <dt>Append text at the end of the line</dt>
+    <code>i</code>
+    <dt>Insert text before the cursor [count] times.</dt>
+    <code>I</code>
+    <dt>Insert text before the first non-blank in the line</dt>
+    <a href="#exit"><input type="button" value="How to exit"></a>
+    <a href="#move"><input type="button" value="How to move..."></a>
+    <a href="#head"><input type="button" value="en haut"></a>
 
 
-        </section>
+  </section>
+  <section class="move">
+    <div id="move">
+      <h2>Moving in...</h2>
+    </div>
+    <code>h</code>
+    <dt>move left</dt>
+    <code>j</code>
+    <dt>move down</dt>
+    <code>k</code>
+    <dt>move up</dt>
+    <code>l</code>
+    <dt>move right</dt>
+    <a href="#exit"><input type="button" value="How to exit"></a>
+    <a href="#insert"><input type="button" value="How to insert text..."></a>
+    <a href="#head"><input type="button" value="en haut"></a>
 
-  </body>
+
+  </section>
+  <footer>
+    <a href="#exit"><input type="button" value="How to exit"></a>
+    <a href="#insert"><input type="button" value="How to insert text..."></a>
+    <a href="#move"><input type="button" value="How to move..."></a>
+    <a href="#head"><input type="button" value="en haut"></a>
+
+  </footer>
+
+</body>
 
 </html>
