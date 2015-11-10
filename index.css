@@ -1,23 +1,4 @@
-header {
-  font-family: cursive;
-  font-size: 2em;
-  background-color: rgba(206,206,206,0.8);
-  text-align: center;
+body {
+font-size: 62.5%
 
-}
-.exit {
-border: solid 2px black;
-margin: 2%;
-padding: 2%;
-
-}
-.insert {
-border: solid 2px black;
-margin: 2%;
-padding: 2%;
-}
-.move {
-border: solid 2px black;
-margin: 2%;
-padding: 2%;
 }
